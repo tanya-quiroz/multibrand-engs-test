@@ -39,7 +39,6 @@
       "Palette.Blue.--palette-blue-v200": "S:4cb584c74c4eacc87bf1937dd7ae5a48c8fd0093,"
     },
     "$figmaVariableReferences": {
-      "Root.--spacing-2": "ce770c2474ed174e1f1b1d3be3a03857dddfee12",
       "Root.--spacing-4": "0e50fbf7f71860e561fc1aff1df7bb2413aa34c9",
       "Root.--spacing-8": "b004b2ca2f853c49477d67df82ab45bc9b5f2790",
       "Root.--spacing-12": "ffc8a16d1079574d4bfd9cd359e2e4d568fe6c86",
@@ -97,7 +96,8 @@
       "Palette.Blue.--palette-blue-v50": "b2ef7ba8ff533d5809277eb32a6ac713aeb97b58",
       "Palette.Blue.--palette-blue-v100": "8ca1c81461a921d789637f0964ab3bb4789634c8",
       "Palette.Blue.--palette-blue-v150": "2accd7497ebec0ca91b9e1091d8314c51e3d291b",
-      "Palette.Blue.--palette-blue-v200": "3e22c8543174e65b754c9c673d6a0a28d5202e27"
+      "Palette.Blue.--palette-blue-v200": "3e22c8543174e65b754c9c673d6a0a28d5202e27",
+      "Root.--spacing-22": "ce770c2474ed174e1f1b1d3be3a03857dddfee12"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:8942",
     "$figmaModeId": "8391:0"

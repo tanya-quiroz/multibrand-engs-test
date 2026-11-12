@@ -1,9 +1,8 @@
 {
   "Root": {
     "--spacing-xxxs": {
-      "value": "{Root.--spacing-20}",
-      "type": "spacing",
-      "description": ""
+      "value": "{Root.--spacing-22}",
+      "type": "spacing"
     },
     "--spacing-xxs": {
       "value": "{Root.--spacing-4}",
