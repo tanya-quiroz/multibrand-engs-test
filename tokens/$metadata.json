@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "Global",
+    "Snapchat (main)/Semantic",
+    "Snapchat (main)/Theme/Primary",
+    "Snapchat (main)/Theme/Secondary",
+    "Snapchat (main)/Theme/Tertiary",
+    "Snapchat (main)/Theme/Quaternary",
+    "Snap/Semantic",
+    "Snap/Theme/Primary",
+    "Snap/Theme/Secondary",
+    "Snap/Theme/Tertiary"
+  ]
+}
