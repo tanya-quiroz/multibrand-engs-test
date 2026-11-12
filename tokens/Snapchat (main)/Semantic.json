@@ -720,16 +720,6 @@
         "type": "color",
         "description": ""
       }
-    },
-    "--semantic-error-color": {
-      "value": "{Palette.Red.--palette-red-v200}",
-      "type": "color",
-      "description": ""
-    },
-    "--semantic-focus-color": {
-      "value": "#275Dc5",
-      "type": "color",
-      "description": ""
     }
   }
 }
