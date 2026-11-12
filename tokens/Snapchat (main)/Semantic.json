@@ -1,7 +1,7 @@
 {
   "Root": {
     "--spacing-xxxs": {
-      "value": "{Root.--spacing-22}",
+      "value": "{Root.--spacing-2}",
       "type": "spacing"
     },
     "--spacing-xxs": {
