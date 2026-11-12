@@ -1,9 +1,8 @@
 {
   "Root": {
-    "--spacing-2": {
+    "--spacing-22": {
       "value": "2px",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--spacing-4": {
       "value": "4px",
