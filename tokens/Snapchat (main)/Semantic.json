@@ -5,7 +5,7 @@
       "type": "spacing"
     },
     "--spacing-xxs": {
-      "value": "{Root.--spacing-4}",
+      "value": "{Root.--spacing-four}",
       "type": "spacing",
       "description": ""
     },
