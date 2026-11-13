@@ -1,12 +1,19 @@
 {
   "Root": {
+    "--spacing-0": {
+      "value": "0px",
+      "type": "spacing",
+      "description": ""
+    },
     "--spacing-2": {
       "value": "2px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": ""
     },
-    "--spacing-four": {
+    "--spacing-4": {
       "value": "4px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": ""
     },
     "--spacing-8": {
       "value": "8px",
@@ -46,6 +53,11 @@
     "--spacing-64": {
       "value": "64px",
       "type": "spacing",
+      "description": ""
+    },
+    "--border-radius-0": {
+      "value": "0px",
+      "type": "borderRadius",
       "description": ""
     },
     "--border-radius-1": {

@@ -1,11 +1,17 @@
 {
   "Root": {
+    "--spacing-none": {
+      "value": "{Root.--spacing-0}",
+      "type": "spacing",
+      "description": ""
+    },
     "--spacing-xxxs": {
       "value": "{Root.--spacing-2}",
-      "type": "spacing"
+      "type": "spacing",
+      "description": ""
     },
     "--spacing-xxs": {
-      "value": "{Root.--spacing-four}",
+      "value": "{Root.--spacing-4}",
       "type": "spacing",
       "description": ""
     },
@@ -47,6 +53,11 @@
     "--spacing-xxxxl": {
       "value": "{Root.--spacing-64}",
       "type": "spacing",
+      "description": ""
+    },
+    "--border-radius-none": {
+      "value": "{Root.--border-radius-0}",
+      "type": "borderRadius",
       "description": ""
     },
     "--border-radius-xs": {
