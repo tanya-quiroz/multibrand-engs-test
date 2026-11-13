@@ -113,30 +113,32 @@
         "description": ""
       }
     },
-    "--action-text-default-color": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
-    },
-    "--action-text-hover-color": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
-    },
-    "--action-text-active-color": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
-    },
-    "--action-indicator-hover-color": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
-    },
-    "--action-indicator-active-color": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+    "Action": {
+      "--action-text-default-color": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": ""
+      },
+      "--action-text-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": ""
+      },
+      "--action-text-active-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": ""
+      },
+      "--action-indicator-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": ""
+      },
+      "--action-indicator-active-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": ""
+      }
     },
     "--curtain-color": {
       "value": "{Brand.Neutral.--neutral-v700}",
@@ -282,7 +284,7 @@
   },
   "Tabs": {
     "--tabs-underline-color": {
-      "value": "{Root.--action-indicator-hover-color}",
+      "value": "{Root.Action.--action-indicator-hover-color}",
       "type": "color",
       "description": ""
     }

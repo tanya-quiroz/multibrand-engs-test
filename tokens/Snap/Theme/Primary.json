@@ -33,13 +33,15 @@
         "description": ""
       }
     },
-    "--action-text-hover-color": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+    "Action": {
+      "--action-text-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": ""
+      }
     },
     "--action-indicator-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -132,8 +134,13 @@
       "type": "color",
       "description": ""
     },
-    "--global-header-menu-border-radius": {
-      "value": "0px",
+    "--global-header-menu-border-radius-bottom-right": {
+      "value": "{Root.--border-radius-none}",
+      "type": "borderRadius",
+      "description": ""
+    },
+    "--global-header-menu-border-radius-bottom-left": {
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -150,7 +157,7 @@
       "description": ""
     },
     "--global-header-menu-item-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -160,7 +167,7 @@
       "description": ""
     },
     "--global-header-menu-featured-item-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     }
@@ -180,8 +187,13 @@
     }
   },
   "Hero": {
-    "--hero-content-desktop-padding": {
-      "value": "{Root.--spacing-xl} 0px {Root.--spacing-xl} {Root.--spacing-m}",
+    "--hero-content-desktop-padding-right": {
+      "value": "{Root.--spacing-none}",
+      "type": "spacing",
+      "description": ""
+    },
+    "--hero-content-desktop-padding-left": {
+      "value": "{Root.--spacing-m}",
       "type": "spacing",
       "description": ""
     },
@@ -235,14 +247,14 @@
   },
   "Content": {
     "--content-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     }
   },
   "Quote": {
     "--quote-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -252,12 +264,12 @@
       "description": ""
     },
     "--quote-card-desktop-padding": {
-      "value": "0px",
+      "value": "{Root.--spacing-none}",
       "type": "spacing",
       "description": ""
     },
     "--quote-card-mobile-padding": {
-      "value": "0px",
+      "value": "{Root.--spacing-none}",
       "type": "spacing",
       "description": ""
     },
@@ -287,7 +299,7 @@
       "description": ""
     },
     "--quote-media-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -302,7 +314,7 @@
       "description": ""
     },
     "--quote-icon-desktop-margin-bottom": {
-      "value": "0px",
+      "value": "{Root.--spacing-none}",
       "type": "spacing",
       "description": ""
     },
@@ -317,14 +329,14 @@
       "description": ""
     },
     "--quote-icon-mobile-margin-bottom": {
-      "value": "0px",
+      "value": "{Root.--spacing-none}",
       "type": "spacing",
       "description": ""
     }
   },
   "Code": {
     "--code-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     }
@@ -429,7 +441,7 @@
       "description": ""
     },
     "--carousel-text-item-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     }
@@ -455,7 +467,7 @@
   },
   "Media": {
     "--media-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     }
@@ -467,7 +479,7 @@
       "description": ""
     },
     "--summary-card-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -552,12 +564,12 @@
       "description": ""
     },
     "--form-input-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
     "--form-input-checkbox-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -620,17 +632,17 @@
   },
   "Bar Chart": {
     "--bar-chart-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
     "--bar-chart-filter-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
     "--bar-chart-tooltip-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -676,19 +688,19 @@
       "description": ""
     },
     "--autocomplete-list-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
     "--autocomplete-input-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     }
   },
   "Chart Skeleton": {
     "--chart-skeleton-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     }
@@ -734,7 +746,7 @@
   },
   "Cookie Modal Settings": {
     "--cookie-modal-body-inline-padding": {
-      "value": "0px",
+      "value": "{Root.--spacing-none}",
       "type": "spacing",
       "description": ""
     },
@@ -744,7 +756,7 @@
       "description": ""
     },
     "--cookie-modal-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
@@ -854,7 +866,7 @@
       "description": ""
     },
     "--cookie-settings-category-border-radius": {
-      "value": "0px",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius",
       "description": ""
     },
