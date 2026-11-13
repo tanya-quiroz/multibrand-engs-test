@@ -8,7 +8,7 @@
       "value": "4px",
       "type": "spacing"
     },
-    "--spacing-8": {
+    "--spacing-eight": {
       "value": "8px",
       "type": "spacing",
       "description": ""
