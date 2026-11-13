@@ -4,10 +4,9 @@
       "value": "2px",
       "type": "spacing"
     },
-    "--spacing-4": {
+    "--spacing-four": {
       "value": "4px",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--spacing-8": {
       "value": "8px",
